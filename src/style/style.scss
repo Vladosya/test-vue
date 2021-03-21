@@ -1,0 +1,264 @@
+.ratingPeople {
+  width: 100%;
+  height: 538px;
+
+  &__block {
+    position: absolute;
+    z-index: 1;
+    width: 960px;
+    min-height: 538px;
+    margin: 15px 0 0 15px;
+    border: 1px solid black;
+  }
+
+  &__top {
+    display: flex;
+    align-items: center;
+    margin: 15px 0 0 188px;
+  }
+
+  &__header {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 34px;
+  }
+
+  &__sort {
+    margin-left: 260.74px;
+  }
+
+  &__btn-one {
+    width: 34.26px;
+    height: 34px;
+    border: 1px solid rgba(44, 62, 80, 0.67);
+    box-sizing: border-box;
+    border-radius: 8px;
+  }
+
+  &__btn-img {
+    margin-top: 2px;
+  }
+
+  &__personStatic {
+    display: flex;
+    align-items: center;
+    margin: 40.8px 0 0 180px;
+    max-width: 576px;
+    height: 88px;
+    border-radius: 10px;
+    padding-left: 15px;
+  }
+
+  &__person-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 58.5px;
+    height: 58.5px;
+    border-radius: 35px;
+  }
+
+  &__person-img {
+    width: 60px;
+    height: 60px;
+    vertical-align: middle;
+    border-radius: 35px;
+  }
+
+  &__person-img-yellow {
+    border: 4px solid #FDD835;
+  }
+
+  &__person-img-gray {
+    border: 4px solid #90A4AE;
+  }
+
+  &__person-img-brown {
+    border: 4px solid #795548;
+  }
+
+  &__person-information {
+    max-width: 190px;
+  }
+
+  &__person-info {
+    margin-left: 24px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 18px;
+  }
+
+  &__person-name {
+    width: 165px;
+    margin: 2px 0 0 24px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 18px;
+  }
+
+  &__person-rating {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 251px;
+  }
+
+  &__person-star {
+    margin-right: 7px;
+    padding: 0;
+  }
+
+  &__person-numberRat {
+    margin-top: 14px;
+  }
+}
+
+.modalWrapper {
+  position: fixed;
+  z-index: 2;
+  background:  rgba(0, 0, 0, 0.2);
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.profilePeople {
+  z-index: 3;
+  position: fixed;
+  right: 0;
+  left: 230px;
+  bottom: 0;
+  top: 250px;
+  margin-top: 20px;
+  width: 478px;
+  height: 281px;
+  background: #FFFFFF;
+
+  &__block {
+    width: 478px;
+    min-height: 281px;
+    border: 1px solid black;
+    background: #FFFFFF;
+  }
+
+  &__top {
+    display: flex;
+    align-items: center;
+    margin-left: 29px;
+  }
+
+  &__header {
+    margin-top: 27px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 18px;
+  }
+
+  &__exit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 24.29px 0 0 124.29px;
+    width: 32px;
+    height: 32px;
+    border: none;
+    background: none;
+    border-radius: 16px;
+  }
+
+  &__exit-img {
+    vertical-align: middle;
+  }
+
+  &__personStatic {
+    display: flex;
+    align-items: center;
+  }
+
+  &__person-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 29px 0 0 29px;
+    width: 127px;
+    height: 127px;
+    border-radius: 70px;
+  }
+
+  &__person-img {
+    width: 129px;
+    height: 129px;
+  }
+
+  &__person-info {
+    margin: 26px 0 0 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 18px;
+  }
+
+  &__person-name {
+    margin: 1px 0 0 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  &__person-number {
+    margin-left: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 18px;
+  }
+
+  &__person-score {
+    margin: 1px 0 0 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  &__person-ratingInfo {
+    margin-left: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 18px;
+  }
+
+  &__person-ratingPosition {
+    margin: 1px 0 0 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  &__aboutPerson {
+    margin: 17px 0 0 24px;
+  }
+
+  &__about {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 18px;
+  }
+
+  &__about-info {
+    margin-top: 4px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+  }
+}
